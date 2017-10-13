@@ -1,0 +1,9 @@
+body {color: white; 
+	background-color: rgba(0,0,255,.8);
+}
+#first {
+	font-weight: bold
+}
+.italics {
+	font-style: italic;
+}
