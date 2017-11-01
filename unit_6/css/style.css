@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:700|Mukta+Malar:300);
+
+body {
+	color: white; 
+	background-color: rgb(0,0,255);
+}
+
+#two_column {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.italics {
+	font-style: italic;
+}
+
+#first {
+	font-weight: bold
+	font-family: 'Averia Serif Libre', cursive; 
+}
+.second {
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+header {
+	background-color: black;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: black;
+		border: 1px black solid;
+	padding: 20px;
+}
+
+div {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	border: 1px black solid;
+	padding: 20px;
+}
