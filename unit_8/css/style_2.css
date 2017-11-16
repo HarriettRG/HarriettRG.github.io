@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:700|Mukta+Malar:300);
+
+body {
+	font-family: 'Mukta Malar', sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#header {
+	background-color: blue;
+	width: 80%;
+}
+
+#logo {
+}
+
+.searchbar {
+	float: right;
+}
+
+nav {
+	background-color: #000000;
+	font-family: 'Mukta Malar', sans-serif;
+	margin: .5em 0;
+	display: inline-block;
+	text-decoration: none;
+	width: 80%;
+}
+
+a {
+	background-color: #ffffff;
+	color: black;
+	text-decoration: none;
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+a:hover {
+	background-color: #0000FF;
+}
+
+#main-row {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.large-card {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.card-large {
+	width: 70%;
+	display: block;
+}
+
+.large-card-image img {
+	width: 45%;
+	height: 25%;
+	float: left;
+	display: block;
+	padding: 2%;
+}
+
+.large-card-text {
+	width: 45%;
+	font-size: 1.5em;
+	float: left;
+	display: block;
+	padding: 1%;
+}
+
+.large-card-sub-text {
+	font-size: .5em;
+	float: left;
+	width: 100%;
+}
+
+#topics {
+	width: 90%;
+	display: block;
+	float: left;
+	padding: 8%;
+}
+
+.homepagetopics {
+	width: 100%;
+}
+
+.card-row {
+	display: block;
+	width: 100%;
+}
+
+.card {
+	width: 50%;
+	float: left;
+}
+
+.card-image {
+	width: 50%;
+}
+
+.card-text {
+	font-size: 1em;
+}
+
+.second {
+	text-decoration: none;
+	width: 10%;
+	padding: 2%;
+	background-color: blue;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 864px) {
+#topics .card {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 684px) {
+	.large-card-text {
+		float: none;
+}
+}
